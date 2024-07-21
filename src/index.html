@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +7,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/styles/main.scss">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>O Culto aos Deuses Antigoa</title>
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="./images/logo.jpeg" alt="pentagrama chutlhu">
             <p class="hero__text">
-                O chamado dos deuses antigos acontecerá em <span id="contador"></span>.
+                O chamado aos Deuses Antigos acontecerá em <br/><span id="contador"></span>.
             </p>
-            <div class="infors-bar">
+            <div class="infos-bar">
                 <ul class="infos-bar__infos">
                     <li class="infos-bar__infos__item">
                         <b>Localização</b>
@@ -35,5 +36,28 @@
             </div>
         </div>
     </header>
+    <section class="event event--cult">
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">O Culto aos Deuses antigos</h2>
+                <p class="event__details__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ex et repudiandae voluptatum consectetur alias vero dolores id tempora optio, nobis pariatur odio dicta cumque cupiditate possimus modi ut quisquam.</p>
+            </div>
+            <img class="event__image" src="./images/Designer (3).jpeg" alt="o culto aos deuses antigos">
+        </div>
+    </section>
+    <section class="event event--clothes">
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Vestimentas</h2>
+                <p class="event__details__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ex et repudiandae voluptatum consectetur alias vero dolores id tempora optio, nobis pariatur odio dicta cumque cupiditate possimus modi ut quisquam.</p>
+            </div>
+            <img class="event__image" src="./images/tunicas.jpeg" alt="vestimanetas dos cultistas">
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Criado por Joks Lobo - 2024</p>
+    </footer>
 </body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
 </html>

@@ -1,0 +1,14 @@
+.button{
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+
+    &-primary{
+        border-radius: 10px;
+        background: linear-gradient(to bottom right,#044631, #009b00);
+        border: 2px solid #009b00;
+    }
+}
